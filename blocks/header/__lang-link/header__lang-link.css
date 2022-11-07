@@ -1,6 +1,10 @@
 .header__lang-link {
     color: white;
-    margin-top: 46px;
     font-size: 24px;
-    margin-left: 8px;
+    text-decoration: none;
+    margin-left: 13px;
+}
+
+.header__lang-link_active {
+    text-decoration: underline;
 }

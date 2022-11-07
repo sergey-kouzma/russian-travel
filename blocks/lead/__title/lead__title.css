@@ -2,5 +2,7 @@
     color: white;
     text-align: center;
     font-size: 96px;
-    margin: 48px 0px 0px;
+    margin: 44px 0px 0px;
+    max-width: 720px;
+    line-height: 100px;
 }
