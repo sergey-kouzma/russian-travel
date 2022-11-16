@@ -1,5 +1,6 @@
 .header__lang-link {
     color: white;
+    line-height: 28px;
     font-size: 24px;
     text-decoration: none;
     margin-left: 13px;
@@ -7,4 +8,29 @@
 
 .header__lang-link_active {
     text-decoration: underline;
+}
+@media screen and (max-width: 1024px) {
+    .header__lang-link {
+        left: 899px;
+        top: 46px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__lang-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

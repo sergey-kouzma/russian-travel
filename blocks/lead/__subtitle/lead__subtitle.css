@@ -6,3 +6,17 @@
     min-width: 288px;
     margin: 32px 0px 66px;
 }
+
+@media all and (max-width: 1279px) {
+    .lead__subtitle {
+        margin-bottom: 56px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px 0px 40px;
+    }
+}

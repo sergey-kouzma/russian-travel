@@ -3,3 +3,9 @@
     flex-direction: column;
     justify-content: end;
 }
+
+@media all and (max-width: 767px) {
+    .place__website {
+        padding:0px 16px;
+    }
+}

@@ -7,3 +7,9 @@
     color: #AAAAAA;
     margin: 0px 0px 12px;
 }
+
+@media all and (max-width: 1279) {
+    .place__url-heading {
+        line-height: 12px;
+    }
+}

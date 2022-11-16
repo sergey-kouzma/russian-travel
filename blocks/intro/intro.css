@@ -3,3 +3,21 @@
     max-width: 984px;
     margin: 104px auto 92px;
 }
+
+@media all and (max-width: 1279px) {
+    .intro {
+        margin: 132px 24px 0px;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .intro {
+        margin: 88px 24px 0px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .intro {
+        margin: 64px 16px 0px;
+    }
+}
