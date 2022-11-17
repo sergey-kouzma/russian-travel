@@ -6,9 +6,6 @@
     margin-left: 13px;
 }
 
-.header__lang-link_active {
-    text-decoration: underline;
-}
 @media screen and (max-width: 1024px) {
     .header__lang-link {
         left: 899px;
