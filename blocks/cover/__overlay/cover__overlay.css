@@ -8,6 +8,7 @@
     top: 0px;
 }
 
-.cover__overlay:hover {
+.cover:hover .cover__overlay {
     opacity: 80%;
+    transition: opacity 0.5s ease-in-out;
 }
