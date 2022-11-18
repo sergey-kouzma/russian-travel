@@ -1,3 +1,9 @@
 .intro__article {
     max-width: 690px;
 }
+
+@media all and (max-width: 1023px) {
+    .intro__article {
+        max-width: none;
+    }
+}

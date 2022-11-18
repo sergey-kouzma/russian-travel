@@ -1,4 +1,4 @@
-.cover__content {
+/*.cover__content {
     position: absolute;
     height: 100%;
     width:100%;
@@ -6,4 +6,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}*/
+
+.cover__content {
+    width: 1184;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1184px) {
+    .cover__content {
+        width: 100%;
+        height: calc(100vw / 1.6);
+    }
 }

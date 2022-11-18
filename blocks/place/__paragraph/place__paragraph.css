@@ -5,17 +5,19 @@
     line-height: 163%;
     margin: 0px 0px 26px 0px;
 }
+.place__paragraph:last-child {
+    margin-bottom: 0px;
+}
 
 @media all and (max-width: 1023px) {
     .place__paragraph {
         line-height: 26px;
         font-size: 16px;
-        padding:0px 16px;
     }
 }
 
 @media all and (max-width: 767px) {
     .place__paragraph {
-        padding:0px 16px;
+        padding: 0px 16px;
     }
 }

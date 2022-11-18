@@ -2,9 +2,16 @@
     color: white;
     text-align: center;
     font-size: 96px;
-    margin: 44px 0px 0px;
+    margin: 56px 0px 0px;
     max-width: 720px;
     line-height: 100px;
+    font-weight: 900;
+}
+
+@media all and (max-width: 1279px) {
+    .lead__title {
+        margin-top: 48px;
+    }
 }
 
 @media all and (max-width: 767px) {

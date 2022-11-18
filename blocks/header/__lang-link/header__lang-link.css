@@ -8,8 +8,6 @@
 
 @media screen and (max-width: 1024px) {
     .header__lang-link {
-        left: 899px;
-        top: 46px;
         font-style: normal;
         font-weight: 400;
         font-size: 24px;

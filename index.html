@@ -12,10 +12,10 @@
 <body class="page">
     <header class="header">
         <img class="header__logo" src="./images/logo.svg" alt="Логотип">
-        <div class="header__lang-links">
-            <a href="/" class="header__lang-link header__lang-link_active link">Ru</a>
-            <a href="/" class="header__lang-link link">En</a>
-        </div>
+        <ul class="header__lang-links">
+            <li><a href="/" class="header__lang-link header__lang-link_active link">Ru</a></li>
+            <li><a href="/" class="header__lang-link link">En</a></li>
+        </ul>
     </header>
     <main>
 
@@ -48,29 +48,29 @@
 
         <section>
             <ul class="photo-grid">
-                <li class="photo-grid__item"><img src="./images/photo-grid/1.jpg" alt="" class="photo-grid__img"
+                <li class="photo-grid__item"><img src="./images/photo-grid/1.png" class="photo-grid__img"
                         alt="Вид из окна"></li>
-                <li class="photo-grid__item"><img src="./images/photo-grid/2.jpg" alt="" class="photo-grid__img"
+                <li class="photo-grid__item"><img src="./images/photo-grid/2.png" class="photo-grid__img"
                         alt="Облака в горах"></li>
-                <li class="photo-grid__item"><img src="./images/photo-grid/3.jpg" alt="" class="photo-grid__img"
+                <li class="photo-grid__item"><img src="./images/photo-grid/3.png" class="photo-grid__img"
                         alt="Волк на камне"></li>
-                <li class="photo-grid__item"><img src="./images/photo-grid/4.jpg" alt="" class="photo-grid__img"
+                <li class="photo-grid__item"><img src="./images/photo-grid/4.png" class="photo-grid__img"
                         alt="Лес в тумане"></li>
-                <li class="photo-grid__item"><img src="./images/photo-grid/5.jpg" alt="" class="photo-grid__img"
+                <li class="photo-grid__item"><img src="./images/photo-grid/5.png" class="photo-grid__img"
                         alt="Колесо на льду"></li>
-                <li class="photo-grid__item"><img src="./images/photo-grid/6.jpg" alt="" class="photo-grid__img"
-                        alt="Пляж"></li>
-                <li class="photo-grid__item"><img src="./images/photo-grid/7.jpg" alt="" class="photo-grid__img"
-                        alt="Скалы"></li>
-                <li class="photo-grid__item"><img src="./images/photo-grid/8.jpg" alt="" class="photo-grid__img"
+                <li class="photo-grid__item"><img src="./images/photo-grid/6.png" class="photo-grid__img" alt="Пляж">
+                </li>
+                <li class="photo-grid__item"><img src="./images/photo-grid/7.png" class="photo-grid__img" alt="Скалы">
+                </li>
+                <li class="photo-grid__item"><img src="./images/photo-grid/8.png" class="photo-grid__img"
                         alt="Волнорезы"></li>
-                <li class="photo-grid__item"><img src="./images/photo-grid/9.jpg" alt="" class="photo-grid__img"
+                <li class="photo-grid__item"><img src="./images/photo-grid/9.png" class="photo-grid__img"
                         alt="Горы в облаках"></li>
-                <li class="photo-grid__item"><img src="./images/photo-grid/10.jpg" alt="" class="photo-grid__img"
+                <li class="photo-grid__item"><img src="./images/photo-grid/10.png" class="photo-grid__img"
                         alt="Одинокая гора"></li>
-                <li class="photo-grid__item"><img src="./images/photo-grid/11.jpg" alt="" class="photo-grid__img"
+                <li class="photo-grid__item"><img src="./images/photo-grid/11.png" class="photo-grid__img"
                         alt="Горы и пляж"></li>
-                <li class="photo-grid__item"><img src="./images/photo-grid/12.jpg" alt="" class="photo-grid__img"
+                <li class="photo-grid__item"><img src="./images/photo-grid/12.png" class="photo-grid__img"
                         alt="Красивые облака"></li>
             </ul>
         </section>
@@ -168,32 +168,43 @@
                 </div>
             </div>
         </section>
-
+        <!--
         <section class="cover">
-            <div class="cover__content">
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+                <div class="cover__content">
+                    <h2 class="cover__title">До Байкала «на собаках»</h2>
+                    <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
+                        на
+                        электричках.</h3>
+                </div>
+                <div class="cover__overlay"></div>
+                <img src="./images/do_baykala.jpg" alt="Карелия" class="cover__background-img">
+            </a>
+        </section>
+    -->
+        <section class="cover">
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__content">
                 <h2 class="cover__title">До Байкала «на собаках»</h2>
-                <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-                    электричках.</h3>
-            </div>
-            <div class="cover__overlay"></div>
-            <div class="cover__background"><img src="./images/do_baykala.jpg" alt="Карелия"
-                    class="cover__background-img"></div>
+                <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h3>
+            </a>
         </section>
     </main>
     <footer class="footer">
-        <ul class="footer__links">
-            <li class="footer__item-with-link"><a class="footer__link link" href="https://yandex.ru/maps"
-                    target="_blank">Карты</a></li>
-            <li class="footer__item-with-link"><a class="footer__link link" href="https://yandex.ru/pogoda"
-                    target="_blank">Погода</a></li>
-            <li class="footer__item-with-link"><a class="footer__link link" href="https://rasp.yandex.ru"
-                    target="_blank">Расписание</a></li>
-            <li class="footer__item-with-link"><a class="footer__link link" href="https://calendar.yandex.ru"
-                    target="_blank">Календарь</a></li>
-            <li class="footer__item-with-link"><a class="footer__link link" href="https://travel.yandex.ru"
-                    target="_blank">Путешествия</a></li>
-        </ul>
-        <p class="footer__copyright">© 2022. Сергей Кузьма</p>
+        <nav>
+            <ul class="footer__links">
+                <li class="footer__item-with-link"><a class="footer__link link" href="https://yandex.ru/maps"
+                        target="_blank">Карты</a></li>
+                <li class="footer__item-with-link"><a class="footer__link link" href="https://yandex.ru/pogoda"
+                        target="_blank">Погода</a></li>
+                <li class="footer__item-with-link"><a class="footer__link link" href="https://rasp.yandex.ru"
+                        target="_blank">Расписание</a></li>
+                <li class="footer__item-with-link"><a class="footer__link link" href="https://calendar.yandex.ru"
+                        target="_blank">Календарь</a></li>
+                <li class="footer__item-with-link"><a class="footer__link link" href="https://travel.yandex.ru"
+                        target="_blank">Путешествия</a></li>
+            </ul>
+        </nav>
+        <p class="footer__copyright">&copy; 2022. Сергей Кузьма</p>
     </footer>
 </body>
 

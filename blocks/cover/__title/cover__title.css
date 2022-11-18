@@ -7,6 +7,9 @@
     line-height: 76px;
     text-align: center;
     margin: 0px 0px 32px ;
+    color: white;
+    text-decoration: none;
+    text-decoration-underline: none;
 }
 
 @media all and (max-width: 767px) {
