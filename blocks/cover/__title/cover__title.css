@@ -8,8 +8,7 @@
     text-align: center;
     margin: 0px 0px 32px ;
     color: white;
-    text-decoration: none;
-    text-decoration-underline: none;
+    z-index: 202;
 }
 
 @media all and (max-width: 767px) {
