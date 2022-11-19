@@ -8,6 +8,7 @@
     text-decoration: none;
     position: relative;
     background-image: url(../../../images/do_baykala.png);
+    background-size: cover;
     
 }
 .cover__content::before {
