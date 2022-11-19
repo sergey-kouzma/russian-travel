@@ -13,11 +13,6 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
-    .header__lang-link {
-        font-style: normal;
-    }
-}
 
 @media screen and (max-width: 767px) {
     .header__lang-link {
