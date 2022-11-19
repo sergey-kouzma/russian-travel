@@ -6,14 +6,25 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    position: relative;
+    background-image: url(../../../images/do_baykala.png);
+    
+}
+.cover__content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: #2A2C2F;
-    background: rgba(42, 44, 47, 0.3);
-    /*background: transparent;*/
+    opacity: 0.3;
+    z-index: 5;
 }
 
-.cover__content:hover {
-    background: rgba(42, 44, 47, 0.8);
-    transition: background 0.5s ease-in-out;
+.cover__content:hover::before {
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
 }
 
 
