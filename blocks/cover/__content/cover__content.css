@@ -1,12 +1,11 @@
 .cover__content {
-    width: 1184;
-    height: 740px;
+    width: 1184px;
+    min-height: 740px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-
     background-color: #2A2C2F;
     background: rgba(42, 44, 47, 0.3);
     /*background: transparent;*/
@@ -21,6 +20,6 @@
 @media screen and (max-width: 1184px) {
     .cover__content {
         width: 100%;
-        height: calc(100vw / 1.6);
+        min-height: calc(100vw / 1.6);
     }
 }
